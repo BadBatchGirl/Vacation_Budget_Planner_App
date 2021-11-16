@@ -1,4 +1,14 @@
+#week1
+# print("Hello Welcome to Vacation Budget Planner")
+# user_name = input("Enter your name please")
+# name = "Oya"
+# print(f"Hello {name}! Would you like to travel to Mexico or Jamaica?" )
+
+#week2
 print("Hello Welcome to Vacation Budget Planner")
-user_name = input("Enter your name please")
-name = "Oya"
-print(f"Hello {name}! Would you like to travel to Mexico or Jamaica?" )
+user_name = (input("Enter your name please "))
+location = (input(f"Hello {user_name}! Would you like to travel to Mexico or Jamaica? "))
+days = int(input("How many days will you be spending on the trip? "))
+spending_money = float(input("How much spending money will you be bringing? "))
+total_money = spending_money / days
+print(f"${total_money}")
