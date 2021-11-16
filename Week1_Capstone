@@ -1,1 +1,4 @@
-
+print("Hello Welcome to Vacation Budget Planner")
+user_name = input("Enter your name please")
+name = "Oya"
+print(f"Hello {name}! Would you like to travel to Mexico or Jamaica?" )
